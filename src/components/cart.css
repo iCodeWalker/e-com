@@ -1,0 +1,40 @@
+.cart__container {
+  display: flex;
+  flex-direction: column;
+  margin: 0 30px;
+}
+
+.cart__container table {
+  flex: 65%;
+  border-collapse: collapse;
+}
+
+.cart__container table td {
+  border: 1px solid #ccc;
+  padding: 15px;
+}
+
+.price-details {
+  margin: 30px;
+  width: 30vw;
+}
+
+.price-row {
+  margin: 10px;
+  display: flex;
+  align-items: flex-end;
+  flex: 0 0 20%;
+  justify-content: space-evenly;
+  border-bottom: 1px solid #ccc;
+}
+
+.description {
+  width: 30%;
+}
+
+.amount {
+  text-align: right;
+  color: rgb(90, 86, 86);
+  font-weight: 600;
+  width: 200px;
+}
