@@ -2,6 +2,11 @@
   background-color: orangered;
   height: 100px;
 }
+.header__logo {
+  float: left;
+  padding: 20px;
+  margin: 0;
+}
 
 .header__container {
   float: right;
